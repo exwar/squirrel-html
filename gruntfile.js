@@ -68,6 +68,7 @@ module.exports = function(grunt){
                     sassDir: 'sass',
                     cssDir: 'css',
                     imagesDir: 'img',
+                    fontsDir: 'fonts',
                     javascriptsDir: 'js',
                     relativeAssets: true,
                     noLineComments: true

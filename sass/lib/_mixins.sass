@@ -1,0 +1,30 @@
+// Image replace
+%ir
+    white-space: nowrap
+    text-shadow: none
+    text-indent: 100%
+    overflow: hidden
+
+// Clearfix
+%cf
+    &:before,
+    &:after
+        display: table
+        content: ""
+
+    &:after
+        clear: both
+
+// Space reset. Used with +rs() mixin
+// Convinient for inline blocks layouts
+%sr
+    font-size: 0
+
+=rs($fz: 15)
+    display: inline-block
+    vertical-align: top
+    font-size: $fz+px
+
+    .lt-ie8 &
+        display: inline
+        zoom: 1
