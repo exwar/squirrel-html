@@ -6,5 +6,6 @@
     src: font-url('fontname.eot');
     src: font-url('fontname.eot?#iefix') format('embedded-opentype'),
          font-url('fontname.woff') format('woff'),
-         font-url('fontname.ttf') format('truetype');
+         font-url('fontname.ttf') format('truetype'),
+         font-url('fontname.svg#fontname') format('svg');
 }
