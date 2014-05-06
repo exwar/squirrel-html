@@ -228,6 +228,7 @@ module.exports = function(grunt){
                     startPath: '_html/start.html',
                     server: {
                         baseDir: ".",
+                        index: "start.html",
                         port: 9000
                     }
                 }
