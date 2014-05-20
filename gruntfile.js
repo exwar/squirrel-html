@@ -182,18 +182,18 @@ module.exports = function(grunt){
                 tasks: ['buildcss']
             },
 
-//            imgJpg: {
-//                files: ['img/**/*.{jpg, jpeg}', '_temp/**/*.{jpg, jpeg}'],
-//                tasks: ['buildJpg']
-//            },
-//            imgPng: {
-//                files: ['img/**/*.png', '_temp/**/*.png'],
-//                tasks: ['buildPng']
-//            },
-//            imgGif: {
-//                files: ['img/**/*.gif', '_temp/**/*.gif'],
-//                tasks: ['buildGif']
-//            },
+            imgJpg: {
+                files: ['img/**/*.{jpg, jpeg}', '_temp/**/*.{jpg, jpeg}'],
+                tasks: ['buildJpg']
+            },
+            imgPng: {
+                files: ['img/**/*.png', '_temp/**/*.png'],
+                tasks: ['buildPng']
+            },
+            imgGif: {
+                files: ['img/**/*.gif', '_temp/**/*.gif'],
+                tasks: ['buildGif']
+            },
 
             jsPlugins: {
                files: ['js/plugins/**/*.js'],
