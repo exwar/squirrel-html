@@ -6,7 +6,7 @@ module.exports = function(grunt){
         pkg: grunt.file.readJSON('package.json'),
 
         meta: {
-            banner: '/*!\n * <%= pkg.name %> - <%= grunt.template.today("yyyy-mm-dd") %>\n * Stanislav Nekrasov | exwar@cpeople.ru     \n */\n',
+            banner: '/*!\n * <%= pkg.name %> - <%= grunt.template.today("yyyy-mm-dd") %>\n * <%= pkg.autgrunthor %> | <%= pkg.email %>     \n */\n',
             production: false
         },
 

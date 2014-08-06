@@ -2,12 +2,13 @@
   "name": "Template",
   "version": "0.1.0",
   "author": "Stanislav Nekrasov",
+  "email": "exwar@cpeople.ru",
   "private": true,
 
   "devDependencies": {
     "grunt":                        "~0.4.1",
     "matchdep":                     "*",
-    
+
     "grunt-htmlhint":               "*",
 
     "grunt-contrib-compass":        "*",
